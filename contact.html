@@ -46,7 +46,7 @@ published: true
             const scriptURL = 'https://script.google.com/macros/s/AKfycby-0xgq5a5EK6qFfJejEOMKqXO9cNXlUTkXACTxRtTamq1EdRXlL4U1FVz6xo5VZ636/exec'
             const form = document.forms['contact-form']
           
-            form.addEventListener('submit', e => {
+            form.addEventListener('Submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
                 .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
