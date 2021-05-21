@@ -449,6 +449,11 @@ p.blog-text{
 .services-section .services-desc {
   margin-bottom: 30px;
 }
+.containervideo{
+  display:flex;
+    justify-content:left;
+    align-items:center;
+}
 @media (max-width: 767px) {
   .services-section {
     padding-top: 40px;
