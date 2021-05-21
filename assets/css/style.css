@@ -454,6 +454,9 @@ p.blog-text{
     justify-content:left;
     align-items:center;
 }
+
+
+
 @media (max-width: 767px) {
   .services-section {
     padding-top: 40px;
